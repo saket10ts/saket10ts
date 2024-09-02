@@ -1,8 +1,8 @@
 ### Hi Developers 👋
 
-[![YouTube Badge](https://img.shields.io/badge/YouTube-DeveloperFunnel-red)](https://www.youtube.com/developerfunnel)
+
 [![Linkedin Badge](https://img.shields.io/badge/-Saket-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/saket-khandelwal-67b586216/)](https://www.linkedin.com/in/saket-khandelwal-67b586216/)
-[![Website Badge](https://img.shields.io/badge/WebSite-Aakash-green)](https://www.akash)
+
 [![Website Badge](https://img.shields.io/badge/StackOverflow-Saket-yellow)](https://stackoverflow.com/users/19369964/saket-khandelwal)
 
 I'm
