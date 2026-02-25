@@ -1,0 +1,11 @@
+{
+  "name": "screener-ai-analyzer-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local server + web UI to explore companies, concalls/PPTs and run AI analysis",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}

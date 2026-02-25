@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Screener AI Analyzer (Local)</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Screener + AI Analyzer (Local Test)</h1>
+      <p class="subtext">
+        Select a company, choose Concall/PPT documents, and run a quick AI analysis.
+      </p>
+
+      <section class="card">
+        <label for="search">Search company</label>
+        <div class="row">
+          <input id="search" placeholder="e.g. TCS" />
+          <button id="searchBtn">Search</button>
+        </div>
+        <select id="companySelect"></select>
+      </section>
+
+      <section class="card">
+        <div class="row">
+          <label for="docType">Document type</label>
+          <select id="docType">
+            <option value="">All</option>
+            <option value="concall">Concall</option>
+            <option value="ppt">PPT</option>
+          </select>
+          <button id="loadDocs">Load Documents</button>
+        </div>
+        <select id="documentSelect"></select>
+      </section>
+
+      <section class="card">
+        <label for="focusAreas">Focus areas (comma-separated)</label>
+        <input id="focusAreas" placeholder="revenue growth, margin, debt" />
+
+        <div class="row">
+          <button id="fetchContentBtn">Fetch selected document content</button>
+          <span id="contentStatus">No document content loaded.</span>
+        </div>
+
+        <label for="content">Document content (from your API)</label>
+        <textarea
+          id="content"
+          rows="8"
+          readonly
+          placeholder="Click 'Fetch selected document content'"
+        ></textarea>
+
+        <button id="analyzeBtn">Analyze with AI</button>
+      </section>
+
+      <section class="card" id="resultCard">
+        <h2>Analysis result</h2>
+        <pre id="result">No analysis yet.</pre>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
